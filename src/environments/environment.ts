@@ -11,7 +11,7 @@ export const environment = {
     bootstrap: 'Bootstrap 4.3.1'
   },
 
-  BASE_API_URL: 'http://babacarapp.herokuapp.com'
+  BASE_API_URL: 'https://babacarapp.herokuapp.com'
 };
 
 /*
