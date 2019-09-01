@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+// import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,12 +9,6 @@ import { HomeComponent } from './modules/general/home/home.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     NotFoundComponent
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    // BrowserModule.withServerTransition({ appId: 'appTache' }),
     AppRoutingModule,
     HttpClientModule
   ],

@@ -8,9 +8,7 @@ import { environment } from 'src/environments/environment';
 export class TacheService {
 
   constructor(private http: HttpClient) { }
-
   getTaches() {
-    
     return this.http.get(`${environment.BASE_API_URL}/taches`);
   }
 }
